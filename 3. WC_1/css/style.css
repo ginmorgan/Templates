@@ -1,8 +1,14 @@
-html {
+html, body {
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
+
+img {
+    display: inline-block;
+}
+
+/*HEADER*/
 
 .header {
     position: relative;
@@ -41,4 +47,113 @@ html {
     bottom: 50px;
     width: 60px;
     height: 50px;
+}
+
+/*PORTFOLIO*/
+
+.portfolio {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 46px;
+    margin-bottom: 60px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-4 {
+    width: 360px;
+    text-align: center;
+}
+
+.portfolio-item__img {
+    margin-bottom: 17px;
+}
+
+.portfolio-item__img img {
+    width: 320px;
+}
+
+.portfolio-item__title {
+    font-size: 24px;
+    text-shadow: 1px 1px 1px gray;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #061634;
+    color: #6479a2;
+    padding: 70px 0px 20px;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.footer__social {
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer__social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__social-icons a {
+    text-decoration: none;
+    font-size: 32px;
+    color: #fff;
+}
+
+.footer__social-icons a:hover {
+    text-decoration: none;
+    font-size: 32px;
+    color: #FFE400;
+}
+
+p.footer__name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: normal;
+    font-family: 'Merriweather', serif;
+}
+
+
+button {
+    font-weight: 700;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 23px;
+    background-color: #061634;
+    border: 2px solid #6479a2;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 13px;
+}
+
+button a, button a:link {
+    background-color: #061634;
+    color: #6479a2;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #FFE400;
 }
