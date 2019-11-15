@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+/*    position: relative;*/
+}
+
+.one {
+    width: 100%;
+    min-width: 250px;
+    height: 100vh;
+    background: url(/img/bg/bg_header.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.arrow__down {
+    position: fixed;
+    bottom: 0px;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.two {
+    width: 100%;
+    min-width: 250px;
+    height: 100vh;
+    background: url(/img/bg/bg_1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.three {
+    width: 100%;
+    min-width: 250px;
+    height: 100vh;
+    background: url(/img/bg/bg_2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.four {
+    width: 100%;
+    min-width: 250px;
+    height: 100vh;
+    background: url(/img/bg/bg_certificate.jpg) center no-repeat;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    min-width: 250px;
+    height: 100vh;
+    background: url(/img/bg/bg_footer.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a, nav ul li a:link {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    transition: 0.7s ease;
+}
