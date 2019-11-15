@@ -3,6 +3,10 @@
     transition: .2s ease-out;
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 16px;
