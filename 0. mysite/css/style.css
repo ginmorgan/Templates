@@ -8,87 +8,69 @@ html {
 }
 
 body {
-/*    position: relative;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
 }
 
-.one {
+header {
     width: 100%;
-    min-width: 250px;
     height: 100vh;
-    background: url(/img/bg/bg_header.jpg) center no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-
-.arrow__down {
-    position: fixed;
-    bottom: 0px;
-    font-size: 40px;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.two {
-    width: 100%;
-    min-width: 250px;
-    height: 100vh;
-    background: url(/img/bg/bg_1.jpg) center no-repeat;
-    background-size: cover;
-}
-
-.three {
-    width: 100%;
-    min-width: 250px;
-    height: 100vh;
-    background: url(/img/bg/bg_2.jpg) center no-repeat;
-    background-size: cover;
-}
-
-.four {
-    width: 100%;
-    min-width: 250px;
-    height: 100vh;
-    background: url(/img/bg/bg_certificate.jpg) center no-repeat;
-    background-size: cover;
-}
-
-footer {
-    width: 100%;
-    min-width: 250px;
-    height: 100vh;
-    background: url(/img/bg/bg_footer.jpg) center no-repeat;
-    background-size: cover;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+    background: url(../img/header_bg.jpg) center no-repeat;
 }
 
 nav {
-    position: fixed;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    color: #fff;
+    background-color: #000;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-between;
-    padding: 10px 30px;
+    justify-content: space-around;
+    list-style: none;
 }
 
-nav ul li {
-    list-style-type: none;
+nav ul {
+    
+    margin: 10px;
 }
 
-nav ul li a, nav ul li a:link {
+nav a, nav a:link {
     font-size: 20px;
+    text-transform: uppercase;
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
-nav ul li a:hover {
-    color: yellow;
-    transition: 0.7s ease;
+nav a:hover {
+    color: coral;
+    transition: .5s ease;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/main_bg.jpg) center no-repeat;
+}
+
+.portfolio {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/section_bg.jpg) center no-repeat;
+    background-color: #000;
+}
+
+.certificate {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/certificate_bg.jpg) center no-repeat;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background: url(../img/contacts_bg.jpg) center no-repeat;
 }
